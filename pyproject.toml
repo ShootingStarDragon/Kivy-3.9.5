@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kivy3-9-5"
+version = "0.1.0"
+description = "Hello world! app for Kivy that runs only on Python 3.9.5"
+authors = ["ShootingStarDragon"]
+license = "MIT license"
+readme = "README.md"
+packages = [{include = "kivy3"}]
+
+[tool.poetry.dependencies]
+python = "3.9.5"
+Kivy = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
